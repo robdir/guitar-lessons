@@ -1,5 +1,13 @@
 .footer {
   background-color: #C1272D;
-  height: 150px;
-  padding: 20px;
+  height: 7em;
+  width: 100%;
+  padding: 5px;
+  bottom: 0;
+  position: fixed;
+}
+
+.links {
+    position: absolute;
+    text-align: right;
 }

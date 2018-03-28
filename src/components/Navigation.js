@@ -7,10 +7,6 @@ import IconButton from 'material-ui/IconButton'
 import MusicNote from 'material-ui/svg-icons/image/music-note'
 import FlatButton from 'material-ui/FlatButton'
 
-const iconStyle = {
-
-}
-
 
 class Navigation extends PureComponent {
 
@@ -21,7 +17,7 @@ class Navigation extends PureComponent {
     render() {
         return (
             <AppBar
-                title="RhW Guitar Tuition"
+                title="Welcome to ToeJam!"
                 iconElementRight={<IconButton onClick={this.goHome}><MusicNote /></IconButton>}
             />
         )
