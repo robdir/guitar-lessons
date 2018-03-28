@@ -3,26 +3,28 @@ import PropTypes from 'prop-types'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import muiTheme from './styles/UI/theme'
 import Navigation from './components/Navigation'
-import './App.css';
+import Footer from './components/Footer'
+import './styles/component-styles/App.css';
 
 class App extends Component {
-  static childContextTypes = {
-    muiTheme: PropTypes.object.isRequired,
-  }
+    static childContextTypes = {
+        muiTheme: PropTypes.object.isRequired,
+    }
 
-  getChildContext() {
-    return { muiTheme }
-  }
+    getChildContext() {
+        return { muiTheme }
+    }
 
-  render() {
-    return (
-      <MuiThemeProvider muiTheme={muiTheme}>
-        <Navigation />
-          <div className="App">
-          </div>
-      </MuiThemeProvider>
-    );
-  }
+    render() {
+        return (
+            <MuiThemeProvider muiTheme={muiTheme}>
+                <Navigation />
+                    <div className="App">
+                    </div>
+                <Footer/>
+            </MuiThemeProvider>
+        );
+    }
 }
 
 export default App;
