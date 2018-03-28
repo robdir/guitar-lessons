@@ -5,20 +5,24 @@ import { push } from 'react-router-redux'
 import AppBar from 'material-ui/AppBar'
 import IconButton from 'material-ui/IconButton'
 import MusicNote from 'material-ui/svg-icons/image/music-note'
-import FlatButton from 'material-ui/FlatButton'
+import Drawer from './Drawer'
+import Typography from 'material-ui/styles/typography'
 
 
 class Navigation extends PureComponent {
 
-    goHome() {
-        this.props.push('/')
-    }
+    // goHome() {
+    //     this.props.push('/')
+    // }
 
     render() {
         return (
             <AppBar
                 title="Welcome to ToeJam!"
+                titleStyle={{ textAlign: 'center'}}
                 iconElementRight={<IconButton onClick={this.goHome}><MusicNote /></IconButton>}
+                iconStyleRight={{ marginTop: 'auto', marginBottom: 'auto'}}
+                iconElementLeft={<IconButton> <Drawer/> </IconButton>}
             />
         )
     }
