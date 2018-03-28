@@ -3,7 +3,7 @@ import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import Menu from 'material-ui/svg-icons/navigation/menu'
 
-const red = "#C1272D"
+const red = "#DEDEDE"
 
 const menuStyle = {
     backgroundColor: red,
@@ -24,8 +24,8 @@ class Sidebar extends PureComponent {
                 <Menu
                     style={{
                         color: "Black",
-                        marginBottom: 'auto',
-                        marginTop: 'auto'
+                        height: "30px",
+                        width: "30px",
                     }}
                     label="Toggle Drawer"
                     onClick={this.changeState}
@@ -37,7 +37,7 @@ class Sidebar extends PureComponent {
                         <MenuItem onClick={this.changeState}><a href='#Omschrijving'><p>About me</p></a></MenuItem>
                         <MenuItem onClick={this.changeState}><a href='#Opleiding'><p>Tuition</p></a></MenuItem>
                         <hr />
-                        <MenuItem onClick={this.changeState}> <p> Menu sluiten </p> </MenuItem>
+                        <MenuItem onClick={this.changeState}> <p> Close draw </p> </MenuItem>
                     </div>
                 </Drawer>
             </div>

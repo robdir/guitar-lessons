@@ -20,6 +20,9 @@ class App extends Component {
             <MuiThemeProvider muiTheme={muiTheme}>
                 <Navigation />
                     <div className="App">
+                        <div className="banner-image">
+                        </div>
+                        <div className="whitespace"></div>
                     </div>
                 <Footer/>
             </MuiThemeProvider>

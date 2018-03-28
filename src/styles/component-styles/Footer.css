@@ -4,7 +4,7 @@
   width: 100%;
   padding: 5px;
   bottom: 0;
-  position: fixed;
+  position: relative;
 }
 
 .info {
@@ -16,7 +16,7 @@ h3 {
     text-decoration: underline;
 }
 
-a {
+.footer a {
     color: whitesmoke;
     text-decoration: none;
 }
