@@ -30,7 +30,7 @@ class Sidebar extends PureComponent {
                     label="Toggle Drawer"
                     onClick={this.changeState}
                 />
-                <Drawer containerStyle={menuStyle} open={this.state.open} docked={false} onRequestChange={this.Close}>
+                <Drawer containerStyle={menuStyle} open={this.state.open} docked={false} onRequestChange={this.changeState}>
                     <div className="menu">
                         <MenuItem><p>Navigate to:</p></MenuItem>
                         <hr />

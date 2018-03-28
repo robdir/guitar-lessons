@@ -1,5 +1,5 @@
 .footer {
-  background-color: #C1272D;
+  background-color: #66B9BF;
   height: 7em;
   width: 100%;
   padding: 5px;
@@ -9,6 +9,7 @@
 
 .info {
     padding-left: 10px;
+    margin: 10px;
 }
 
 h3 {
