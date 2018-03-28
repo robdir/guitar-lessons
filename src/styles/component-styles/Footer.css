@@ -7,7 +7,15 @@
   position: fixed;
 }
 
-.links {
-    position: absolute;
-    text-align: right;
+.info {
+    padding-left: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
 }
