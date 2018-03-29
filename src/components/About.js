@@ -5,7 +5,9 @@ class About extends PureComponent {
 
     render() {
         return (
-            <p> Hi there!</p>
+            <article className="about-section">
+            <h3> About me </h3>
+            </article>
         )
     }
 }

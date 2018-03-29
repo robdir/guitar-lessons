@@ -3,18 +3,14 @@
   color: black
 }
 
-.quote-box {
-  position: absolute;
-  vertical-align: middle;
-  display: inherit
-}
-
 .quote {
-  position: relative;
+  position: absolute;
+  text-align: left;
   color: black;
   margin: 0 auto;
   left: 8em;
-  padding: 8em;
+  bottom: 35em;
+  font-family: 'Lato', sans-serif;
 }
 
 

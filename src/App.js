@@ -24,10 +24,8 @@ class App extends Component {
                     <div className="App">
                         <div className="banner-image">
                             <img src={background} className="background-guitar"/>
-                                <div className="quote-box">
-                                    <h2 className="quote"> "The only truth is Music." <br/>
+                                    <h2 className="quote"> "The only truth is Music."
                                     -Jack Kerouac </h2> 
-                                </div>
                             </div>
                         <div className="about-me">
                             <About/>
