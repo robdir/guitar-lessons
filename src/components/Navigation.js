@@ -17,8 +17,8 @@ class Navigation extends PureComponent {
     render() {
         return (
             <AppBar
-                title="Welcome to ToeJam!"
-                titleStyle={{ textAlign: 'center'}}
+                title="ToeJam Enterprises"
+                titleStyle={{ textAlign: 'left'}}
                 iconElementRight={<IconButton onClick={this.goHome}><MusicNote /></IconButton>}
                 iconStyleRight={{ marginTop: 'auto', marginBottom: 'auto'}}
                 iconElementLeft={<IconButton> <Drawer/> </IconButton>}

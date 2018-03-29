@@ -5,7 +5,7 @@ class Footer extends PureComponent {
 
     render() {
         return (
-            <div className="footer">
+            <footer>
                 <div className="info">
                     <h3> Shameless self promotion </h3>
                     <p>  I'm also a web-developer!
@@ -15,7 +15,7 @@ class Footer extends PureComponent {
                          <a href="https://soundcloud.com/inuinuband/sets/demo"> here. </a>
                     </p>
                 </div>
-            </div>
+            </footer>
         )
     }
 }

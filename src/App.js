@@ -21,6 +21,13 @@ class App extends Component {
                 <Navigation />
                     <div className="App">
                         <div className="banner-image">
+                                <div className="quote-box">
+                                    <h2 className="quote"> "The only truth is Music." </h2>
+                                    <br />
+                                    <h2 className="quote"> -Jack Kerouac </h2> 
+                                </div>
+                            </div>
+                        <div className="about">
                         </div>
                         <div className="whitespace"></div>
                         </div>
