@@ -4,6 +4,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import muiTheme from './styles/UI/theme'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+import About from './components/About'
+import background from './fixtures/git.jpg'
 import './styles/component-styles/App.css';
 
 class App extends Component {
@@ -21,13 +23,14 @@ class App extends Component {
                 <Navigation />
                     <div className="App">
                         <div className="banner-image">
+                            <img src={background} className="background-guitar"/>
                                 <div className="quote-box">
-                                    <h2 className="quote"> "The only truth is Music." </h2>
-                                    <br />
-                                    <h2 className="quote"> -Jack Kerouac </h2> 
+                                    <h2 className="quote"> "The only truth is Music." <br/>
+                                    -Jack Kerouac </h2> 
                                 </div>
                             </div>
-                        <div className="about">
+                        <div className="about-me">
+                            <About/>
                         </div>
                         <div className="whitespace"></div>
                         </div>
