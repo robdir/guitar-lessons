@@ -23,7 +23,7 @@ class App extends Component {
                         <div className="banner-image">
                         </div>
                         <div className="whitespace"></div>
-                    </div>
+                        </div>
                 <Footer/>
             </MuiThemeProvider>
         );

@@ -6,7 +6,6 @@ import AppBar from 'material-ui/AppBar'
 import IconButton from 'material-ui/IconButton'
 import MusicNote from 'material-ui/svg-icons/image/music-note'
 import Drawer from './Drawer'
-import Typography from 'material-ui/styles/typography'
 
 
 class Navigation extends PureComponent {
