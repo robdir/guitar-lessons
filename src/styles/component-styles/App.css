@@ -26,6 +26,13 @@
   height: 100%;
 }
 
+.about-me {
+  width: 100vh;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  padding: 2em;
+}
+
 .whitespace {
   height: 50px;
 }
