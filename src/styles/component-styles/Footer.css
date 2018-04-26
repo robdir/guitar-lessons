@@ -1,5 +1,5 @@
 footer {
-  background-color: darkgrey;
+  background-color: #2d3142;
   height: 8em;
   width: 100%;
   bottom: 0;
@@ -7,12 +7,9 @@ footer {
   border-top: 2px orange solid;
 }
 
-footer a {
-    color: orange;
-    text-decoration: none;
-}
-
 .info {
+    color: whitesmoke;
+    text-decoration: none;
     padding-left: 20px;
     float: left;
 }

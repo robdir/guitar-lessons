@@ -10,15 +10,11 @@ import Drawer from './Drawer'
 
 class Navigation extends PureComponent {
 
-    // goHome() {
-    //     this.props.push('/')
-    // }
-
     render() {
         return (
             <AppBar
                 title="ToeJam Enterprises"
-                titleStyle={{ textAlign: 'left'}}
+                titleStyle={{ textAlign: 'left', color: 'whitesmoke'}}
                 iconElementRight={<IconButton onClick={this.goHome}><MusicNote /></IconButton>}
                 iconStyleRight={{ marginTop: 'auto', marginBottom: 'auto'}}
                 iconElementLeft={<IconButton> <Drawer/> </IconButton>}

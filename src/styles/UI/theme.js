@@ -9,15 +9,15 @@ export const white = '#ffffff'
 export const smoke = '#F5F5F5'
 export const black = '#000000'
 export const blue = '#00008B'
-export const darkGrey = '#757575'
+export const darkBlue = '#2d3142'
 export const grey = '#DEDEDE'
 export const grey50 = 'rgba(222, 222, 222, 0.5)'
 export const grey30 = 'rgba(222, 222, 222, 0.7)'
 
 // Palette
 export const palette = {
-    primary1Color: darkGrey,
-    primary2Color: darkGrey,
+    primary1Color: darkBlue,
+    primary2Color: darkBlue,
     primary3Color: powder,
     accent1Color: powder,
     textColor: black,

@@ -24,13 +24,11 @@ class App extends Component {
                     <div className="App">
                         <div className="banner-image">
                             <img src={background} className="background-guitar"/>
-                                    <h2 className="quote"> "The only truth is Music."
-                                    -Jack Kerouac </h2> 
+                                <h2 className="quote"> One-to-one guitar tuition focusing on <br /> personalised learning for all skill levels. </h2> 
                             </div>
                         <div className="about-me">
                             <About/>
                         </div>
-                        <div className="whitespace"></div>
                         </div>
                 <Footer/>
             </MuiThemeProvider>
